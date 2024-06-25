@@ -39,6 +39,13 @@
         <script src="/assets/js/uikit-components.js"></script>
     </head>
     <body class="uni-body">
+        <script>
+            const toggleButton = document.getElementById('toggleButton');
+            
+            toggleButton.addEventListener('click', () => {
+                toggleButton.classList.toggle('on');
+            });
+          </script>
 
         <!-- Dark/Light toggle -->
         <div class="darkmode-trigger uk-position-bottom-right uk-position-small uk-position-fixed uk-box-shadow-large uk-radius-circle" data-darkmode-toggle="">
